@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES6",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "types": ["phaser"],
+    "paths": {
+      "*": ["node_modules/*"],
+      "@assets/*": ["./assets/*"],
+      "@common/*": ["./src/common/*"],
+      "@main/*": ["src/main/*"],
+      "@app/*": ["./src/*"],
+      "@src/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "tools/**/*"]
+}
